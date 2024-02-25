@@ -117,7 +117,7 @@ ul {
       height: 54px;
       margin-left: 20px;
       line-height: 54px;
-      color: rgb(112, 111, 109);
+      color: rgb(102, 102, 102);
       font-size: 17px;
     }
   }
