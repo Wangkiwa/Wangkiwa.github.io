@@ -33,9 +33,7 @@
           <div class="left">
             <i style="color: red; margin-right: 2px">*</i>报考单位
           </div>
-          <div class="right local" style="margin-right: 55px">
-            (10200)东北师范大学
-          </div>
+          <div class="right local">(10200)东北师范大学</div>
         </li>
       </ul>
     </section>
@@ -137,6 +135,7 @@ ul {
     .right {
       // margin-right: 5px;
       font-size: 20px;
+      width: 68%;
       color: #ccc;
       input {
         height: 54px;
