@@ -41,26 +41,31 @@
       本系统所有数据均为招生单位提供,招生单位对查询结果负责解释
     </div>
     <div class="search"><button @click="search">查询</button></div>
-    <footer>
-      <img
+    <footer class="footer">
+      <p>
+        主办单位：教育部学生服务与素质发展中心<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（原全国高等学校学生信息咨询与就业指导)
+      </p>
+      <p>Copyright &copy 2003-2024 学信网 All Rights Reserved</p>
+      <!-- <img
         src="../assets/image/底部.jpg"
         width="100%"
         height="100px"
         style="margin-top: 93px"
-      />
+      /> -->
     </footer>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home',
+  name: "Home",
   methods: {
-    search () {
-      this.$router.push('/About')
-    }
-  }
-}
+    search() {
+      this.$router.push("/About");
+    },
+  },
+};
 </script>
 <style lang="less" scoped>
 header {
@@ -165,6 +170,16 @@ ul {
     font-size: 20px;
     color: #fff;
     cursor: pointer;
+  }
+}
+.footer {
+  background-color: rgb(40, 40, 40);
+  color: rgb(117, 117, 117);
+  margin-top: 50px;
+  font-size: 12px;
+  padding: 20px 40px;
+  p {
+    margin-top: 5px;
   }
 }
 </style>
