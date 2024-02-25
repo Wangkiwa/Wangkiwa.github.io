@@ -33,7 +33,9 @@
           <div class="left">
             <i style="color: red; margin-right: 2px">*</i>报考单位
           </div>
-          <div class="right" style="margin-right: 95px">(10355)江南大学</div>
+          <div class="right local" style="margin-right: 55px">
+            (10200)东北师范大学
+          </div>
         </li>
       </ul>
     </section>
@@ -145,6 +147,9 @@ ul {
           color: #ccc;
         }
       }
+    }
+    .local {
+      color: #7a7676;
     }
   }
 }

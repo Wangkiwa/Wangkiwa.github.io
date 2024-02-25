@@ -1,5 +1,12 @@
 <template>
   <div class="about">
+    <header>
+      <div class="logo"><img src="@/assets/image/yzw logo.png" /></div>
+      <div class="add">
+        <img src="@/assets/image/头像.png" />
+        <img src="@/assets/image/导航.png" />
+      </div>
+    </header>
     <div class="title">2024年部分考生初试成绩查询</div>
     <section>
       <ul>
@@ -84,6 +91,34 @@ export default {
 </script>
 
 <style scoped lang="less" scoped>
+header {
+  width: 100%;
+  height: 53px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+
+  .logo {
+    width: 132px;
+    height: 26px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .add {
+    img {
+      &:first-child {
+        margin-right: 17px;
+      }
+    }
+  }
+}
+
 .title {
   width: 100%;
   height: 48px;
