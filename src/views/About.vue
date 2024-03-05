@@ -44,7 +44,9 @@
         </li>
         <li>
           <div class="left">备注:</div>
-          <div class="right">无</div>
+          <div class="right" style="line-height: normal">
+            在所报考戏剧与影视专业中的总 <br />成绩排名为:109
+          </div>
         </li>
       </ul>
     </section>
